@@ -1,0 +1,446 @@
+/* Home Page*/
+
+body {
+    padding-top: 70px;
+}
+
+hr {
+    display: block;
+    border-color: #D8D8D8;
+    border-width: 1px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif !important;
+    font-weight: 600px !important;
+    margin-top: 50px auto !important;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 500;
+    color: #5A5247;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+	margin-top: 20px;
+	padding-left: 0px;
+	font-weight: 500;
+	font-family: 'Roboto' sans-serif;
+	text-decoration: underline;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+p {
+
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5247;
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+a {
+    color: #EB7A77;
+}
+
+ul{
+	padding: auto 0px;
+}
+
+.btn {
+    font-weight: 600 !important;
+    color: #EB7A77 !important;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px !important;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: white !important;
+    opacity: 0.9;
+}
+
+.navbar-toggler-icon {}
+
+.container {
+    padding: 0px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.navbar {
+    margin-right: 0px;
+}
+
+#navBottom .row {
+    display: flex;
+}
+#navBottom a{
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.95;
+    font-weight: 700;
+}
+
+
+
+
+
+#mainNav {
+    background-color: #006284;
+}
+
+.nav-item {
+    font-size: 13px;
+    /*padding-top: 5px;*/
+}
+
+#portfolio {
+    color: #EF8CA9 !important;
+}
+
+#mainNav .fa {
+    color: white !important;
+    opacity: 0.9;
+    padding-right: 5px;
+}
+
+#chisu {
+    font-size: 20px !important;
+    color: white;
+    font-weight: 700;
+}
+
+ul.icons {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+
+#navBottom {
+    background-color: #006284 !important;
+    height: 60px;
+    color: white;
+    opacity: 0.9;
+}
+
+#navBottom {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.portfolio-box {}
+
+.project-name {
+    color: #006284 !important;
+}
+
+.project-category .text-faded {
+    color: #3a8fb7 !important;
+}
+
+
+
+/* about me */
+
+#aboutMe {
+    height: 100%;
+    width: 100%;
+    background: url("https://i.imgur.com/IO8oh8Z.png")no-repeat center center fixed;
+    background-size: cover;
+    margin: 50px auto;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+#aboutMe p {
+    margin: 0px auto 50px auto;
+}
+
+#aboutMe img {
+    margin: 20px;
+    padding: 15px;
+    width: 200px
+}
+
+#aboutMeP {
+    /*padding: 0px 250px 30px 250px;*/
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.img-circle {
+    border-radius: 100px;
+}
+
+#about .row #aboutMe a i {
+    color: #EB7A77;
+    margin-right: 10px;
+}
+
+
+
+
+/* Contact sectiom */
+
+.content-header {
+    font-family: 'Oleo Script', cursive;
+    color: #006284;
+    font-size: 45px;
+}
+
+
+#contact {
+
+    font-family: sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    background: #fff;
+    /* fallback for old browsers */
+    background: #fff;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: #fff;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #3a8fb7;
+}
+
+.section-header {
+    color: #006284;
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    padding-top: 40px;
+}
+
+
+
+.section-content {
+    text-align: center;
+}
+
+.form-line {
+    border-right: 1px solid #B29999;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+
+
+label {
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+}
+
+textarea.form-control {
+    height: 135px;
+    /* margin-top: px;*/
+}
+
+.submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#contact {
+    padding: auto 750px;
+}
+
+#sendMessageBtn{
+	background-color: #006284 !important;
+	color: white !important;
+}
+
+#blankSpace{
+	height: 100px;
+}
+
+
+
+#to-top {
+	bottom: 5px;
+	right: 5px;
+	display: none;
+	background: black !important;
+}
+
+#wireframeBtn{
+	background-color: #006284 !important;
+	color: white !important;
+	margin: 30px auto;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: middle;
+	line-height: 1.5;
+
+}
+
+#prototypeBtn {
+	background-color: #006284 !important;
+	color: white !important;
+	width: 80%;
+	padding: 20px;
+}
+
+#prototypes{
+	margin-top: 80px;
+}
+
+
+/* small */
+
+@media only screen and (max-width: 400px) {
+    #mainNav {
+        display: none;
+    }
+    #aboutMeP {
+        font-size: 14px;
+    }
+
+    h1{
+    	font-size: 2em;
+    	margin-left: 15px;
+    	margin-right: 15px;
+    }
+
+    h2{
+    	font-size: 1.4em;
+    	margin-top: 50px;
+    	margin-left: 15px;
+    	margin-right: 15px;
+    }
+
+    h3{
+    	font-size: 1.2em;
+    	margin-left: 15px;
+    	margin-right: 15px;
+    	margin-top: 30px;
+    }
+
+    p{
+    	font-size: 1em;
+    	margin-left: 15px;
+    	margin-right: 15px;
+    }
+}
+
+
+
+/* medium */
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0px;
+    }
+
+    #aboutMeP {
+        font-size: 16px;
+    }
+
+    .nav-item {
+        font-size: 13px;
+    }
+
+    #to-top {
+	bottom: 65px;
+	right: 5px;
+	display: none;
+	background: black !important;
+}
+}
+
+
+/* large-medium */
+
+@media only screen and (max-width: 992px) {
+
+
+    .nav-item {
+        font-size: 10px;
+    }
+
+    #chisu {
+        font-size: 10px;
+    }
+
+    #navAbout{
+    	color: white !important;
+    	opacity: 0.9;
+    }
+
+    #blankSpace{
+    	height: 5px;
+    }
+}
+
+#footer{
+	text-align: center;
+	font-family: 'Roboto',sans-serif;
+	margin-top: 70px;
+}
+
+
+/* large */
+
+@media only screen and (min-width: 401px) {
+
+
+    #navBottom {
+        display: none;
+    }
+
+    #blankSpace{
+
+    	#to-top {
+	bottom: 5px;
+	right: 5px;
+	display: none;
+	background: black !important;
+}
+    	height: 5px;
+    }
+}
+
+
+
+#portfolioBody {
+    padding: 0px;
+}
+
