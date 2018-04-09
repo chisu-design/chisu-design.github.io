@@ -421,7 +421,9 @@ textarea.form-control {
 #footer{
 	text-align: center;
 	font-family: 'Roboto',sans-serif;
-	margin-top: 70px;
+	margin: 70px auto;
+    color: #A5DEE4;
+    
 }
 
 
