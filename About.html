@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Chi Su / UX Designer</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+
+
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-brand fixed-top" >
+        <div class="container">
+            <a id="chisu"  href="index.html" >CHI SU</a>
+            <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">CHI SU</a> -->
+            <div id="navbarResponsive" >
+
+                <ul class="navbar-nav navbar-left" >
+                    
+                    <li class="nav-item">
+                        <a id="portfolio" class="nav-link js-scroll-trigger" href="index.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navAbout" class="nav-link js-scroll-trigger" href="About.html">About</a>
+                    </li>
+              
+                </ul>
+            </div>
+            <div id="socialMediaIcons">
+
+                <ul class="icons">
+                    <a href="https://www.linkedin.com/in/chi-su-210b13104/" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></a>
+                    <a href="mailto:chisuux@gmail.com" class="fa fa-envelope fa-2x" aria-hidden="true"></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- about me -->
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div id="aboutMe" class="col-xs-12">
+                <h3 style="margin-top">ABOUT</h3>
+                <img class="img-circle" src="https://i.imgur.com/uiye7i2.jpg">
+                <p id="aboutMeP" class="col-sm-12 col-lg-8">Chi Su is a 3D / UX Design professional with extensive training in 3D animation. She graduated from School of Visual Arts in New York in 2017. Currently she is making an transition to UI/UX field. She is a quick learner and a highly motivated problem solver. In her spare time, she focuses on refining her skills as a UI/UX Designer, keep up to date with the latest trends for Graphic and Interactive Design, and learning to code better.</p>
+                <a href="/img/resume.pdf" target="_blank" class="btn btn-dark btn-lg"><i class="fa fa-file"></i>Resume</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="blankSpace"></div>
+    <div id="footer">© 2018 ChiSuUX</div>
+    <div id="navBottom" class="navbar navbar-default navbar-fixed-bottom hidden-md hidden-lg">
+        <div><a href="index.html">PORTFOLIO</div>
+        <div><a href="index.html">ABOUT</div>
+        <div><a href="index.html">CONTACT</div>
+    </div>
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg" style="position:fixed;">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      var fixed = false;
+      $(document).scroll(function() {
+          if ($(this).scrollTop() > 250) {
+              if (!fixed) {
+                  fixed = true;
+                  // $('#to-top').css({position:'fixed', display:'block'});
+                  $('#to-top').show("slow", function() {
+                      $('#to-top').css({
+                          position: 'fixed',
+                          display: 'block'
+                      });
+                  });
+              }
+          } else {
+              if (fixed) {
+                  fixed = false;
+                  $('#to-top').hide("slow", function() {
+                      $('#to-top').css({
+                          display: 'none'
+                      });
+                  });
+              }
+          }
+      });
+    });
+    </script>
+</body>
+
+</html>
