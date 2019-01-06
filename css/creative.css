@@ -25,12 +25,12 @@ hr.light {
   border-color: white; }
 
 a {
-  color: #F05F40;
+  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
-    color: #f05f40; }
+    color: #fff; }
 
 h1,
 h2,
@@ -133,7 +133,9 @@ body {
           color: white; }
       #mainNav.navbar-shrink {
         border-color: rgba(34, 34, 34, 0.05);
-        background-color: white; }
+        background-color: white;
+        opacity:0.7;
+       }
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 16px;
           color: #F05F40; }
