@@ -3,11 +3,22 @@
     height:35%;
   }
 
+  #index_catfinder {
+    background-image: linear-gradient(
+                            rgba(0, 0, 0, 0), 
+                            rgba(0, 0, 0, 0)), 
+                            url("https://i.ibb.co/Yfsq6Z1/catfinder-index-light-Blue.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+
   #index_foodshare {
     background-image: linear-gradient(
                             rgba(0, 0, 0, 0), 
                             rgba(0, 0, 0, 0)), 
-                            url("https://i.ibb.co/qJF3hJG/Foorshare-index.jpg");
+                            url("https://i.ibb.co/ccCNwBc/foodshare-index-light-Blue.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +30,17 @@
                                 rgba(0, 0, 0, 0), 
                                 rgba(0, 0, 0, 0)), 
                                 url("https://i.ibb.co/qkhf8dY/efiwe-index.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        }
+
+    #index_portfolioProject {
+        background-image: linear-gradient(
+                                rgba(0, 0, 0, 0), 
+                                rgba(0, 0, 0, 0)), 
+                                url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,7 +95,7 @@
     background-image: linear-gradient(
         rgba(0, 0, 0, 0), 
         rgba(0, 0, 0, 0)), 
-        url("https://i.ibb.co/j6ynXKQ/index-catfinder.jpg");
+        url("https://i.ibb.co/Yfsq6Z1/catfinder-index-light-Blue.jpg");
     }
 
     #index_catfinder:hover .portfolio-box {
@@ -85,7 +107,7 @@
     background-image: linear-gradient(
                             rgba(0, 0, 0, 0.5), 
                             rgba(0, 0, 0, 0.5)), 
-                            url("https://i.ibb.co/j6ynXKQ/index-catfinder.jpg");
+                            url("https://i.ibb.co/Yfsq6Z1/catfinder-index-light-Blue.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +119,7 @@
     background-image: linear-gradient(
       rgba(0, 0, 0, 0), 
       rgba(0, 0, 0, 0)), 
-      url("https://i.ibb.co/qJF3hJG/Foorshare-index.jpg");
+      url("https://i.ibb.co/ccCNwBc/foodshare-index-light-Blue.png");
   }
 
   #index_foodshare:hover .portfolio-box {
@@ -108,7 +130,7 @@
     background-image: linear-gradient(
                             rgba(0, 0, 0, 0.5), 
                             rgba(0, 0, 0, 0.5)), 
-                            url("https://i.ibb.co/qJF3hJG/Foorshare-index.jpg");
+                            url("https://i.ibb.co/ccCNwBc/foodshare-index-light-Blue.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,6 +154,29 @@
                                 rgba(0, 0, 0, 0.5), 
                                 rgba(0, 0, 0, 0.5)), 
                                 url("https://i.ibb.co/qkhf8dY/efiwe-index.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        }
+
+    /* Portfolio Project */
+    #index_portfolioProject:hover{
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0), 
+          rgba(0, 0, 0, 0)), 
+          url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
+      }
+    
+      #index_portfolioProject:hover .portfolio-box {
+        display: block;
+      }
+    
+      #index_portfolioProject {
+        background-image: linear-gradient(
+                                rgba(0, 0, 0, 0.5), 
+                                rgba(0, 0, 0, 0.5)), 
+                                url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
