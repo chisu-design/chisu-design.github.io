@@ -12,7 +12,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}
+    }
+
+    #index_efiwe {
+        background-image: linear-gradient(
+                                rgba(0, 0, 0, 0), 
+                                rgba(0, 0, 0, 0)), 
+                                url("https://i.ibb.co/qkhf8dY/efiwe-index.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        }
 }
 
 
@@ -53,6 +64,35 @@
     height:100%;
   }
 
+  .portfolio-box {
+    display: none;
+  }
+
+    /* cat finder */
+    #index_catfinder:hover{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0), 
+        rgba(0, 0, 0, 0)), 
+        url("https://i.ibb.co/j6ynXKQ/index-catfinder.jpg");
+    }
+
+    #index_catfinder:hover .portfolio-box {
+    display: block;
+    /* background-color: rgba(0, 0, 0, 0.5) */
+    }
+
+    #index_catfinder {
+    background-image: linear-gradient(
+                            rgba(0, 0, 0, 0.5), 
+                            rgba(0, 0, 0, 0.5)), 
+                            url("https://i.ibb.co/j6ynXKQ/index-catfinder.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+
+    /* foodshare */
   #index_foodshare:hover{
     background-image: linear-gradient(
       rgba(0, 0, 0, 0), 
@@ -60,11 +100,6 @@
       url("https://i.ibb.co/qJF3hJG/Foorshare-index.jpg");
   }
 
-  .portfolio-box {
-    display: none;
-  }
-
-  /* me solve it bruh */
   #index_foodshare:hover .portfolio-box {
     display: block;
   }
@@ -78,7 +113,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}
+    }
+
+    /* Efiwe */
+    #index_efiwe:hover{
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0), 
+          rgba(0, 0, 0, 0)), 
+          url("https://i.ibb.co/qkhf8dY/efiwe-index.jpg");
+      }
+    
+      #index_efiwe:hover .portfolio-box {
+        display: block;
+      }
+    
+      #index_efiwe {
+        background-image: linear-gradient(
+                                rgba(0, 0, 0, 0.5), 
+                                rgba(0, 0, 0, 0.5)), 
+                                url("https://i.ibb.co/qkhf8dY/efiwe-index.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        }
+
+    
 }
 
 

@@ -173,12 +173,14 @@ ul.icons {
     color: #ffffff !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 20px;
 
 }
 
 .project-category{
     color: #ffffff !important;
+    font-size: 14px;
+    font-weight: 100;
     
 }
 
@@ -361,6 +363,12 @@ textarea.form-control {
     vertical-align: middle;
   }
 
-  .fa-envelope{
+  .fa-linkedin-square{
       margin: 0px 20px;
   }
+
+  /* .portfolio-box{
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 20;
+      padding: 10px;
+  } */
