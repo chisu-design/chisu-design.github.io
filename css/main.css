@@ -59,7 +59,7 @@ p {
 
     font-family: 'Open Sans', sans-serif;
     color: #5A5247;
-    font-size: 16pt;
+    font-size: 14pt;
     margin-top: 20px;
 }
 
@@ -188,14 +188,8 @@ ul.icons {
 
 /* about me */
 
-#aboutMe {
-    height: 100%;
-    width: 100%;
-    background: url("https://i.imgur.com/IO8oh8Z.png")no-repeat center center fixed;
-    background-size: cover;
-    margin: 50px auto;
-    text-align: center;
-    padding: 50px 30px;
+#about{
+    margin-top:50px;
 }
 
 #aboutMe p {
@@ -367,8 +361,7 @@ textarea.form-control {
       margin: 0px 20px;
   }
 
-  /* .portfolio-box{
-      background-color: rgba(0, 0, 0, 0.5);
-      opacity: 20;
-      padding: 10px;
-  } */
+  #profilePic{
+      width: 100%;
+      /* height: 100px; */
+  }
