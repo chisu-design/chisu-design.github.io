@@ -46,6 +46,24 @@ h5 {
     font-weight: 500;
 }
 
+h6 {
+    color: #5A5247 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0%;
+}
+
+.sm-txt{
+    font-weight: 500;
+    color: #5A5247;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-top: 0%;
+}
+
+
+
 .navbar-toggler {
     border: 1px solid white;
 }
@@ -56,15 +74,21 @@ h5 {
 
 
 p {
-
     font-family: 'Open Sans', sans-serif;
     color: #5A5247;
     font-size: 14pt;
-    margin-top: 20px;
+    margin: 20px, 0px !important;
 }
 
 a {
     color: #ffffff;
+}
+
+.a2 {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5247;
+    font-size: 14pt;
 }
 
 ul {
@@ -73,14 +97,36 @@ ul {
 
 .btn {
     font-weight: 600 !important;
-    color: #EB7A77 !important;
+    color: #ffffff !important;
+    background-color: #006284 !important;
     text-transform: uppercase;
     border: none;
     padding: 10px 30px;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    background-color: white !important;
     opacity: 0.9;
+}
+
+#grey-icon{
+    color: #5A5247;
+}
+
+.md-txt{
+    font-family: 'Roboto', sans-serif;
+    color: #5A5247;
+    font-size: 14pt;
+    margin: 50px, 0px !important;
+}
+
+.job-description{
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5247;
+    font-size: 12pt;
+}
+
+#exp-box{
+    margin: 30px 0px;
+    padding: 0px;
 }
 
 .navbar-toggler-icon {}
@@ -90,7 +136,7 @@ ul {
 }
 
 .navbar-nav {
-    flex-direction: row;
+    flex-direction: jo;
 }
 
 .nav-item {
@@ -174,7 +220,6 @@ ul.icons {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
-
 }
 
 .project-category{
@@ -192,32 +237,15 @@ ul.icons {
     margin-top:50px;
 }
 
-#aboutMe p {
-    margin: 0px auto 50px auto;
-}
-
 #aboutMe img {
     margin: 20px;
     padding: 15px;
     width: 200px
 }
 
-#aboutMeP {
-    /*padding: 0px 250px 30px 250px;*/
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-}
-
 .img-circle {
     border-radius: 100px;
 }
-
-#about .row #aboutMe a i {
-    color: #EB7A77;
-    margin-right: 10px;
-}
-
-
 
 
 /* Contact sectiom */
