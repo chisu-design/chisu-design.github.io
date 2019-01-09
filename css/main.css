@@ -56,7 +56,7 @@ h6 {
 
 .sm-txt{
     font-weight: 500;
-    color: #5A5247;
+    color: #262626;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     margin-top: 0%;
@@ -107,20 +107,25 @@ ul {
     opacity: 0.9;
 }
 
-#grey-icon{
-    color: #5A5247;
+.grey-icon{
+    color: #262626;
 }
 
 .md-txt{
     font-family: 'Roboto', sans-serif;
-    color: #5A5247;
+    color: black;
     font-size: 14pt;
     margin: 50px, 0px !important;
 }
 
+.md-txt-italy{
+    color: #262626;
+    font-family: 'Merriweather', serif;
+}
+
 .job-description{
     font-family: 'Open Sans', sans-serif;
-    color: #5A5247;
+    color: 262626;
     font-size: 12pt;
 }
 
@@ -385,9 +390,13 @@ textarea.form-control {
     vertical-align: middle;
   }
 
+  .fa-linkedin-square.grey-icon {
+      margin: 0rem;
+  }
   .fa-linkedin-square{
       margin: 0px 20px;
   }
+
 
   #profilePic{
       width: 100%;
