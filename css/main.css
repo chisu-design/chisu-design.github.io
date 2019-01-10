@@ -91,6 +91,17 @@ a {
     font-size: 14pt;
 }
 
+.tag-btn {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: 262626;
+    font-size: 14pt;
+    background-color: #dfe6e8;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin:3px
+}
+
 ul {
     padding: auto 0px;
 }
@@ -133,8 +144,6 @@ ul {
     margin: 30px 0px;
     padding: 0px;
 }
-
-.navbar-toggler-icon {}
 
 .container {
     padding: 0px;
@@ -199,15 +208,10 @@ ul.icons {
 
 
 #navBottom {
+    opacity: 0.9;
     background-color: #006284 !important;
     height: 60px;
-    color: white;
-    opacity: 0.9;
-}
-
-#navBottom {
     overflow: hidden;
-    background-color: #333;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -233,8 +237,6 @@ ul.icons {
     font-weight: 100;
     
 }
-
-
 
 /* about me */
 
