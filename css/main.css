@@ -9,7 +9,7 @@ hr {
     border-color: #D8D8D8;
     border-width: 1px;
     max-width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
@@ -22,14 +22,16 @@ h1 {
 h2 {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 22px;
     font-weight: 500;
-    color: #5A5247;
-    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-family: 'Merriweather', serif;
     margin-top: 20px !important;
+    margin-bottom: 10px !important;
 }
 
 h4 {
@@ -55,6 +57,22 @@ h6 {
     margin: 0%;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #262626;
+    font-size: 14pt;
+    margin: 20px, 0px !important;
+}
+
+p > span{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 14pt;
+    font-weight: 600;
+    margin: 20px, 0px !important;
+    text-decoration: underline;
+}
+
 .sm-txt{
     font-weight: 500;
     color: #262626;
@@ -73,21 +91,6 @@ h6 {
     color: white;
 }
 
-#about-description-content{
-    font-family: 'Open Sans', sans-serif;
-    color: #5A5247;
-    font-size: 13pt;
-    margin: 10px 0px !important;
-}
-
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    color: #5A5247;
-    font-size: 20pt;
-    margin: 30px 0px !important;
-}
-
 a {
     color: #ffffff;
 }
@@ -97,17 +100,6 @@ a {
     font-family: 'Open Sans', sans-serif;
     color: #5A5247;
     font-size: 14pt;
-}
-
-.tag-btn {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    color: 262626;
-    font-size: 14pt;
-    background-color: #dfe6e8;
-    padding: 5px 7px;
-    border-radius: 5px;
-    margin:3px
 }
 
 ul {
@@ -158,7 +150,7 @@ ul {
 }
 
 .navbar-nav {
-    flex-direction: row;
+    flex-direction: jo;
 }
 
 .nav-item {
@@ -174,23 +166,16 @@ ul {
 }
 
 #navBottom a {
-    font-size: 14px;
+
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: none;
+    opacity: 0.95;
+    font-weight: 700;
 }
 
-#navBottom {
-    opacity: 0.95;
-    background-color: #006284 !important;
-    height: 50px;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
+
+
 
 #mainNav {
     background-color: #006284;
@@ -215,16 +200,26 @@ ul {
     color: black;
 }
 
-.grey-icon:hover{
-    color: black;
-}
-
-
-
 ul.icons {
     padding: 0px !important;
     margin: 0px;
     color: black;
+}
+
+
+#navBottom {
+    background-color: #006284 !important;
+    height: 60px;
+    color: white;
+    opacity: 0.9;
+}
+
+#navBottom {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .portfolio-box {
@@ -247,6 +242,8 @@ ul.icons {
     font-weight: 100;
     
 }
+
+
 
 /* about me */
 
@@ -341,20 +338,16 @@ textarea.form-control {
     padding: auto 750px;
 }
 
-#sendMessageBtn {
-    background-color: #006284 !important;
-    color: white !important;
-}
 
-#blankSpace {
-    height: 100px;
+.blankSpace {
+    height: 200px;
 }
-
 
 
 #to-top {
     bottom: 5px;
     right: 5px;
+    display: none;
     background: black !important;
 }
 
@@ -395,12 +388,6 @@ textarea.form-control {
       color:white;
       font-family: 'Open Sans', sans-serif;
       font-size: 12px;
-  }
-
-  p > span{
-      color: black;
-      font-weight: 600;
-      font-size: 20px;
   }
   
   .fa{
