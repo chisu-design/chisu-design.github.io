@@ -9,7 +9,8 @@ hr {
     border-color: #D8D8D8;
     border-width: 1px;
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -72,12 +73,19 @@ h6 {
     color: white;
 }
 
+#about-description-content{
+    font-family: 'Open Sans', sans-serif;
+    color: #5A5247;
+    font-size: 13pt;
+    margin: 10px 0px !important;
+}
+
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #5A5247;
-    font-size: 14pt;
-    margin: 20px, 0px !important;
+    font-size: 20pt;
+    margin: 30px 0px !important;
 }
 
 a {
@@ -204,6 +212,10 @@ ul {
 }
 
 .navbar-shrink #logo {
+    color: black;
+}
+
+.grey-icon:hover{
     color: black;
 }
 
@@ -383,6 +395,12 @@ textarea.form-control {
       color:white;
       font-family: 'Open Sans', sans-serif;
       font-size: 12px;
+  }
+
+  p > span{
+      color: black;
+      font-weight: 600;
+      font-size: 20px;
   }
   
   .fa{
