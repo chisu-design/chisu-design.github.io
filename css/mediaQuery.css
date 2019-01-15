@@ -65,7 +65,6 @@
   #to-top {
       bottom: 5px;
       right: 5px;
-      display: none;
       background: black !important;
   }
 
@@ -244,7 +243,6 @@
   #to-top {
       bottom: 65px;
       right: 5px;
-      display: none;
       background: black !important;
   }
 

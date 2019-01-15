@@ -74,38 +74,38 @@
 // back to top button
 
 // 1. lets first listen for the scroll event
-$(window).scroll(function(){
+// $(window).scroll(function(){
 
-    // top value in this case 0
-    var wScroll = $(this).scrollTop();
+//     // top value in this case 0
+//     var wScroll = $(this).scrollTop();
   
   
-    // determine when to show button
-    var showScrollButton = 200;
+//     // determine when to show button
+//     var showScrollButton = 200;
 
-    // fadein / fadeout back to  top button
-    if (wScroll > showScrollButton) {
-        $('#top').fadeIn();
-    } else {
-        $('#top').fadeOut();
-    }
-});
+//     // fadein / fadeout back to  top button
+//     if (wScroll > showScrollButton) {
+//         $('#top').fadeIn();
+//     } else {
+//         $('#top').fadeOut();
+//     }
+// });
 
 // 2. lets create the button
-$('body').append('<a id="top" href="#">TOP</a>');
+// $('body').append('<a id="top" href="#">TOP</a>');
 
 // 3. lets create the css properties
-$('#top').css({
-  "bottom" : "200px",
-  "right" : "20px",
-  "position" : "fixed",
-  "cursor" : "pointer",
-  "z-index" : "1",
-  "display" : "none",
-  "background-color" : "rgba(0,0,0,0.7)",
-  "padding" :"20px 40px",
-  "color" : "#ffffff"
-});
+// $('#top').css({
+//   "bottom" : "200px",
+//   "right" : "20px",
+//   "position" : "fixed",
+//   "cursor" : "pointer",
+//   "z-index" : "1",
+//   "display" : "none",
+//   "background-color" : "rgba(0,0,0,0.7)",
+//   "padding" :"20px 40px",
+//   "color" : "#ffffff"
+// });
 
 // 4. lets create the on click
 $('#top').click(function () {

@@ -10,7 +10,6 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
@@ -23,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- Custom styles for this template -->
     <link href="css/creative.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -101,12 +101,11 @@
     </div>
 
     <!-- sm screen nav bar on the bottom -->
-    <div id="navBottom" class="navbar navbar-default navbar-fixed-bottom hidden-md hidden-lg">
-        <div><a href="index.html">PORTFOLIO</div>
-        <div><a href="index.html" class="hvr-pulse">ABOUT</div>
-        <div><a href="index.html">CONTACT</div>
+    <div id="navBottom" class="navbar navbar-default navbar-fixed-bottom hidden-md hidden-lg text-center">
+        <div class="col-6"><a href="index.html">PORTFOLIO</a></div>
+        <div class="col-6"><a href="about.html">ABOUT</a></div>
     </div>
-    <a id="to-top" href="#top" class="btn btn-dark btn-lg" style="position:fixed;">
+    <a id="to-top" href="#top" class="btn btn-dark btn-lg position-fixed d-none">
         <i class="fa fa-chevron-up"></i>
     </a>
     <!-- Bootstrap core JavaScript -->
@@ -121,28 +120,20 @@
     <script src="js/creative.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             var fixed = false;
             $(document).scroll(function () {
                 if ($(this).scrollTop() > 250) {
                     if (!fixed) {
                         fixed = true;
-                        // $('#to-top').css({position:'fixed', display:'block'});
-                        $('#to-top').show("slow", function () {
-                            $('#to-top').css({
-                                position: 'fixed',
-                                display: 'block'
-                            });
-                        });
+                        $('#to-top').removeClass('zoomOut d-none').addClass('animated zoomIn');
                     }
                 } else {
                     if (fixed) {
                         fixed = false;
-                        $('#to-top').hide("slow", function () {
-                            $('#to-top').css({
-                                display: 'none'
-                            });
-                        });
+                        $('#to-top')
+                            .removeClass('zoomIn d-none')
+                            .addClass('animated zoomOut');
                     }
                 }
             });
