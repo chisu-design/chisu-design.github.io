@@ -351,7 +351,6 @@ textarea.form-control {
 #to-top {
     bottom: 5px;
     right: 5px;
-    display: none;
     background: black !important;
 }
 
