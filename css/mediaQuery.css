@@ -217,9 +217,14 @@
 
   h3 {
       font-size: 1.2em;
-      margin-left: 15px;
+      margin-left: 0px;
       margin-right: 15px;
       margin-top: 30px;
+  }
+
+  p{
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
 
