@@ -416,3 +416,28 @@ textarea.form-control {
       margin:3px;
       border-radius: 5px;
   }
+
+  .next-project-section{
+      background-color: #bdc8ce;
+      padding: 70px;
+      color: white;
+  }
+
+  .next-project{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .next-project-name{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 40px 0px;
+  }
+
+  .next-project-btn{
+      width: 50px;
+      height: 100%;
+  }
