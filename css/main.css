@@ -344,7 +344,7 @@ textarea.form-control {
 
 
 .blankSpace {
-    height: 200px;
+    height: 100px;
 }
 
 
@@ -440,4 +440,8 @@ textarea.form-control {
   .next-project-btn{
       width: 50px;
       height: 100%;
+  }
+
+  a:hover {
+      text-decoration: none
   }
