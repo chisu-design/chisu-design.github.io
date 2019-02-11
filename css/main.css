@@ -445,3 +445,7 @@ textarea.form-control {
   a:hover {
       text-decoration: none
   }
+
+  a.grey-icon:hover {
+    color:black;
+}
