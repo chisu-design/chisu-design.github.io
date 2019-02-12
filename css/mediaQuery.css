@@ -48,8 +48,9 @@
         }
 
     p {
-        font-size: 16px;
+        font-size: 20px;
     }    
+
 }
 
 
@@ -66,7 +67,15 @@
       background: black !important;
   }
 
+  #mainNav.navbar-shrink {
+    background: white;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
 
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
+    color: #262626;
+  }
 
 
   #portfolioBody {
@@ -77,7 +86,7 @@
   .portfolio-container {
       cursor: pointer;
   }
-
+  
 
 }
 
@@ -183,11 +192,6 @@
         background-size: cover;
         height: 100%;
         }
-        
-        p{
-            font-size: 16px;
-        }
-    
 }
 
 
@@ -225,6 +229,11 @@
   p{
     margin-left: 15px;
     margin-right: 15px;
+    font-size: 16px;
+  }
+
+  .btn{
+    margin-left:15px;
   }
 
 
@@ -254,7 +263,7 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 15px;
         margin-right: 15px;
         }
@@ -267,6 +276,10 @@
     h3{
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .btn{
+      margin-left:15px;
     }
 
 }
@@ -292,6 +305,13 @@
 
   #blankSpace {
       height: 5px;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 30px;
   }
 
 }
