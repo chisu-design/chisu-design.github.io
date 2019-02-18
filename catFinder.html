@@ -58,20 +58,35 @@
 
         <h1>CatFinder</h1>
         <p>CatFinder is a web app that allows people to share their location on cats they come across and upload cat
-            pictures.<br>Use the button below linking to the web application!</p>
+            pictures.<br><br><i class="fa fa-exclamation-circle"></i> Please turn on
+            location service when using the app.</p>
         <div>
-            <button type="button" CLASS="btn" onclick=" window.open('https://chisu-design.github.io/catFinder/','_blank')">WEB APPLICATION</button>
+            <button type="button" CLASS="btn" onclick=" window.open('https://chisu-design.github.io/catFinder/','_blank')">VIEW
+                WEB APP</button>
         </div>
     </div>
     <br>
     <div class="container">
         <h2>Project Statement</h2>
         <hr>
-        <p>I am a huge fan of cats. I notice them a lot in my neighborhood and love seeing them. Sometime, I want to
-            know what cats has been spotted in the area and what are the chances of me coming across them or if I
-            recognize a particular one. I decided to create this web app for this purpose to let people upload random
-            cats they saw on the street. I hope that more people use this app so users will know about the cats around
-            them. I also hope that it can also help people find their lost cat as another benefit of using this.</p><BR>
+        <p>As a cat lover, I always want to know if a cat is nearby whenever I go. This led to the creation of this web
+            application so I can pinpoint where I last saw the cat and upload a picture on how it looks like.
+            Originally, I’ve created this app for public use, but I figure people might start to chase stray cats. This
+            might not be a good thing for cats, so now I’ve created this app for personal use. This app also
+            demonstrates my front-end development skills. </p><BR>
+
+        <h2>Technologies</h2>
+        <hr>
+        <p>
+            • Front-End Development<br>
+            • Firebase: Cloud function and storage<br>
+            • JavaScript<br>
+            • HTML5<br>
+            • CSS3<br>
+            • Bootstrap 4<br>
+            • Geolocation API<br>
+
+        </p><br>
 
         <h2>Wireframe</h2>
         <hr>
@@ -81,16 +96,16 @@
         <hr>
         <p>I used Firebase, a Backend-as-a-Service that allows me to store data on the cloud. The database contains
             images, information on the cat name, and GPS coordinates. I used HTML5, CSS3, and jQuery to make the layout
-            a functionality. It has a responsive layout based on what device the user is using.<br>Please turn on
-            location service when using the app.</p>
+            a functionality. It has a responsive layout based on what device the user is using.</p>
 
         <div class="row">
             <!-- <div class="col-12 col-md-1 col-lg-2"></div> -->
             <div class="col-12 col-md-4 col-lg-4">
-                    <div>
-                        <button type="button" CLASS="btn" onclick=" window.open('https://github.com/chisuart/catFinder')">CODE</button>
-                    </div>
-                    <br>
+                <div>
+                    <button type="button" CLASS="btn" onclick=" window.open('https://github.com/chisuart/catFinder')">
+                        VIEW CODE</button>
+                </div>
+                <br>
             </div>
         </div>
     </div>
@@ -102,16 +117,17 @@
     <div class="next-project-section">
         <div class="col-sm-12 text-center next-project"><a class="nohover" href="efiwe.html">Next Project</a></div>
         <div class="col-sm-12 text-center next-project-name"><a href="efiwe.html">EFIWE</a></div>
-        <div class="col-sm-12 text-center"><a href="efiwe.html"><img class="next-project-btn" src="img/next-project-btn.png" alt="next-project-btn"></a></div>
+        <div class="col-sm-12 text-center"><a href="efiwe.html"><img class="next-project-btn" src="img/next-project-btn.png"
+                    alt="next-project-btn"></a></div>
     </div>
-    
+
 
     <div id="footer">
         <div id="socialMediaIcons">
             <ul class="icons">
                 <a href="mailto:chisuux@gmail.com" class="fa fa-envelope fa-2x" aria-hidden="true"></a>
                 <a href="https://www.linkedin.com/in/chi-su" class="fa fa-linkedin-square fa-2x" aria-hidden="true"></a>
-                <span>Copyright © 2019 chisuux  |  Chi Su  |  UI/UX Designer</span>
+                <span>Copyright © 2019 chisuux | Chi Su | UI/UX Designer</span>
             </ul>
         </div>
     </div>
@@ -121,12 +137,12 @@
         <div class="col-6"><a href="index.html">PORTFOLIO</a></div>
         <div class="col-6"><a href="About.html">ABOUT</a></div>
     </div>
-    
+
     <!-- Back to top button -->
     <a id="to-top" href="#top" class="btn btn-dark btn-lg position-fixed d-none">
         <i class="fa fa-chevron-up"></i>
     </a>
-    
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
@@ -139,7 +155,7 @@
     <script src="js/creative.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             var fixed = false;
             $(document).scroll(function () {
                 if ($(this).scrollTop() > 250) {
