@@ -449,3 +449,12 @@ textarea.form-control {
   a.grey-icon:hover {
     color:black !important;
 }
+
+/* enlarge bg image */
+#index_catfinder {
+    transition: all .2s ease-in-out;
+}
+
+/* #index_catfinder:hover {
+    transform: scale(1.2);
+} */
