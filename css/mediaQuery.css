@@ -36,7 +36,7 @@
   #index_portfolioProject {
     background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)),
-      url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
+      url("https://i.ibb.co/fCJhpFX/VRHeadset.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +166,7 @@
   #index_portfolioProject:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)),
-      url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
+      url("https://i.ibb.co/fCJhpFX/VRHeadset.jpg");
   }
 
   #index_portfolioProject:hover .portfolio-box {
@@ -176,7 +176,7 @@
   #index_portfolioProject {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)),
-      url("https://i.ibb.co/Srkn2SZ/portfolio-Project-index.jpg");
+      url("https://i.ibb.co/fCJhpFX/VRHeadset.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
